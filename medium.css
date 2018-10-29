@@ -1,0 +1,93 @@
+
+
+.nav-menu{
+    height: 0px;
+    
+    
+   flex-direction: column;
+   position: absolute;
+   overflow: hidden;
+   
+  
+   
+    
+}
+
+
+
+.log-menu{
+    display: initial;
+    
+}
+.presentation{
+    display: flex;
+    width: 600px;
+    justify-content: center;
+   
+}
+.profile-text{
+    width:350px;
+}
+.presentation-pic img{
+    width:120px;
+    height: 120px;
+    margin-left: 0px;
+    margin-top: 20px;
+}
+.trait{
+    width: 400px;
+}
+.portfolio{
+    width:600px;
+
+}
+main{
+    background: rgba(0, 247, 255, 0.486);
+}
+.contact{
+    
+     width: 600px;
+     height: 700px;
+        
+        align-items: flex-start;
+        flex-direction: column;
+        justify-content: flex-start;
+
+        
+       
+        
+        
+        
+       
+        
+        
+        
+        
+    }
+    .contact-text{
+        width: 500px;
+        padding-left: 20px;
+    }
+    .user-input{
+        margin-left: 60px;
+    }
+    .contact-title{
+        margin-left: 60px;
+    }
+    .service-information{
+        margin-left: 60px;
+
+    }
+    .send-button{
+        width: 80px;
+        height: 30px;
+        margin-left: 160px;
+
+    }
+    #check:checked ~ .nav-menu {
+        height: 100px;
+       }
+       #check{
+        visibility: hidden;
+        position: absolute
+    }
